@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Blog</title>
+    <link>/</link>
+    <description>Recent content on Hugo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 31 Mar 2019 15:01:59 +0800</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>建置Hugo Blog</title>
+      <link>/post/welcome/</link>
+      <pubDate>Sun, 31 Mar 2019 15:01:59 +0800</pubDate>
+      
+      <guid>/post/welcome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>關於</title>
+      <link>/about/</link>
+      <pubDate>Sun, 31 Mar 2019 14:57:10 +0800</pubDate>
+      
+      <guid>/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

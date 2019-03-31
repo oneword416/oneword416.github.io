@@ -5,7 +5,9 @@
   <meta charset="utf-8" />
 
   
-  <title>Hugo Blog (SEO Version)</title>
+  <title>
+  關於 | Hugo Blog (SEO Version)
+</title>
 
   
   
@@ -37,7 +39,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Hugo Blog (SEO Version)">
   <meta property="og:description" content="Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.">
-  <meta property="og:url" content="/">
+  <meta property="og:url" content="/about/">
   <meta property="og:image" content="/images/avatar.png">
 
 
@@ -46,8 +48,7 @@
 <meta name="generator" content="Hugo 0.54.0">
 
 
-<link rel="canonical" href="/">
-<link rel="alternate" type="application/rss+xml" href="/index.xml" title="Hugo Blog">
+<link rel="canonical" href="/about/">
 
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -124,10 +125,11 @@
       
     </div>
     
-     <header class="site-header">
+    
+  <header class="site-header">
   <img class="avatar" src="/images/avatar.png" alt="Avatar">
   
-  <h1 class="title">Hugo Blog</h1>
+  <h2 class="title">Hugo Blog</h2>
   
   <p class="subtitle">~ Keep It Simple &amp; Stupid ~</p>
   <button class="menu-toggle" type="button" aria-label="Main Menu" aria-expanded="false" tab-index="0">
@@ -142,7 +144,7 @@
       
       
         <li class="menu-item
-           is-active
+          
           
           ">
           <a href="/">Home</a>
@@ -194,27 +196,36 @@
   </nav>
 </header>
 
-<section class="main post-list">
-  <header class="list-header offscreen">
-    <h2 class="list-label">All Posts</h2>
-  </header>
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">關於</h1>
+    </header>
+    <article class="post-content"></article>
+    
+      <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "disqus_shortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    
+  </section>
   
-  
-   <article class="post-entry">
-  <header class="post-header">
-    <h3 class="post-title"><a href="/post/welcome/" class="post-link">建置Hugo Blog</a></h3>
-    <p class="post-meta">@Evan Peng · Mar 31, 2019 · 0 min read</p>
-  </header>
-  
-  <p class="post-summary"></p>
-  <footer class="post-footer">
-    <a class="read-more" href="/post/welcome/">Read More →</a>
-  </footer>
-</article>
- 
-   
-</section>
-
 <footer class="site-footer">
   <p>© 2017-2019 Hugo Blog</p>
   <p>Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank" rel="noopener">Nuo</a>.</p>
@@ -259,6 +270,7 @@ if (!doNotTrack) {
 
 
 
- 
+
+
   </body>
 </html>
